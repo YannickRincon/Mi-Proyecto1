@@ -40,7 +40,8 @@ adminButton.addEventListener('click', () => {
   listaProd.style.display = 'block';
   home.style.display='block';
   });
-
+///////////////////////////////////////////////////////////////////////////
+///Este 
 home.addEventListener('click',() =>{
   userButtons.style.display = 'block';
   listaProd.style.display = 'none';
