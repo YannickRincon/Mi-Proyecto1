@@ -1,10 +1,12 @@
+//Parte uno. Se definen variables para manipular los botones y para esconder 
+//los contenidos de usuario y Admin
 const filterButton = document.getElementById('filterButton');
 const featureElements = document.querySelectorAll('.feature');
 const imageItems = document.querySelectorAll('.image-item');
 const clearFilterButton = document.getElementById('clearFilterButton');
 const listaProd = document.getElementById('lista-productos');
 const home = document.getElementById('iniciar');
-
+////////////////////////////////////////////////////
 home.style.display='none';
 
 listaProd.style.display = 'none';
