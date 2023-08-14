@@ -101,14 +101,15 @@ body {
     text-align: center;
     padding: 10px;
   }
-
+/*-----------------------------------------------------------*/
+/*Parte cinco. Estilos para la lista de productos en vision de Admin*/
   #lista-productos {
     list-style: none;
     padding: 0;
     margin: 20px auto;
     max-width: 800px;
   }
-  /*-----------------------------------------------------------*/
+  
   #lista-productos li {
     background-color: white;
     padding: 10px;
