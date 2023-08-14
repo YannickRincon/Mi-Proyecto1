@@ -54,7 +54,9 @@ home.addEventListener('click',() =>{
 });
 ////////////////////////////////////////////////////
 
-
+//Parte seis. Este es el boton de filtrado en vision de usuario.
+//Lo que hace es buscar los cactus que tienen una caracteristica
+//Especifica y esconder los que no la presentan
 filterButton.addEventListener('click', () => {
   const selectedFeature = prompt('Escriba "regado semanal" o "regado mensual"');
   
