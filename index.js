@@ -52,6 +52,7 @@ home.addEventListener('click',() =>{
   item.style.display = 'none';
 });
 });
+////////////////////////////////////////////////////
 
 
 filterButton.addEventListener('click', () => {
