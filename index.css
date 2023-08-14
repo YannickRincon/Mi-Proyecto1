@@ -81,7 +81,7 @@ body {
   #clearFilterButton:hover {
     background-color: #f44336;
   }
-
+/*-------------------------------------------------------------*/
 .content {
     display: flex;
     flex-direction: column;
