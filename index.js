@@ -69,6 +69,7 @@ filterButton.addEventListener('click', () => {
     }
   });
 });
+//////////////////////////////////////////////////
 
 clearFilterButton.addEventListener('click', () => {
     imageItems.forEach(item => {
