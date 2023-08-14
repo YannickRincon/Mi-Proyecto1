@@ -49,6 +49,7 @@ body {
     object-fit: cover;
   }
 /*----------------------------------------------------------*/
+/*Tercera parte. Se dan los estilos a los botones*/
 #filterButton, #iniciar {
     display: block;
     margin: 20px auto;
