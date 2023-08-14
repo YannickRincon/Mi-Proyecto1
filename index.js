@@ -18,13 +18,13 @@ imageItems.forEach(item => {
   item.style.display = 'none';
 });
 ////////////////////////////////////////////////////////////
+
+//Parte tres. Se definen las variables para manipular los botones
+//de usuario y admin
 const userButton = document.getElementById('userButton');
 const adminButton = document.getElementById('adminButton');
 const userButtons = document.getElementById('userButtons');
-
-
-
-
+///////////////////////////////////////////////////////////////
 
 userButton.addEventListener('click', () => {
   userButtons.style.display = 'none';
