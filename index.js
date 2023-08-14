@@ -77,6 +77,7 @@ clearFilterButton.addEventListener('click', () => {
     });
   });
 ///////////////////////////////////////
+//Parte 7. Esta matriz guarda la informacion de cada elemento
 const cactus = [
     {
       imagen: 'images/1.jpg',
@@ -121,7 +122,8 @@ const cactus = [
         stock: 70
       },
   ];
-  
+  /////////////////////////////////////////////////////
+  //Parte nueve. Se llena la lista creada en el HTML con la informacion de la matriz anterior
   const listaProductos = document.getElementById("lista-productos");
 
 
