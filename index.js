@@ -7,6 +7,9 @@ const clearFilterButton = document.getElementById('clearFilterButton');
 const listaProd = document.getElementById('lista-productos');
 const home = document.getElementById('iniciar');
 ////////////////////////////////////////////////////
+
+//Parte dos. Se esconden los contenidos de usuario y admin
+//Para solo mostrar los botones de opciones usuario y admin
 home.style.display='none';
 
 listaProd.style.display = 'none';
@@ -14,7 +17,7 @@ listaProd.style.display = 'none';
 imageItems.forEach(item => {
   item.style.display = 'none';
 });
-
+////////////////////////////////////////////////////////////
 const userButton = document.getElementById('userButton');
 const adminButton = document.getElementById('adminButton');
 const userButtons = document.getElementById('userButtons');
