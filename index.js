@@ -70,7 +70,7 @@ filterButton.addEventListener('click', () => {
   });
 });
 //////////////////////////////////////////////////
-
+////////////////////////////////////////////////////
 clearFilterButton.addEventListener('click', () => {
     imageItems.forEach(item => {
       item.style.display = 'block';
