@@ -41,7 +41,8 @@ adminButton.addEventListener('click', () => {
   home.style.display='block';
   });
 ///////////////////////////////////////////////////////////////////////////
-///Este 
+///Parte cinco. Este boton de Inicio aparece para volver al inicio 
+//Y ocultar de nuevo todos los contenidos
 home.addEventListener('click',() =>{
   userButtons.style.display = 'block';
   listaProd.style.display = 'none';
