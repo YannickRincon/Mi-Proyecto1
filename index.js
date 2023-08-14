@@ -26,6 +26,7 @@ const adminButton = document.getElementById('adminButton');
 const userButtons = document.getElementById('userButtons');
 ///////////////////////////////////////////////////////////////
 
+//Parte cuatro. Se muestran los elementos ocultos al elegir Usuario o admin
 userButton.addEventListener('click', () => {
   userButtons.style.display = 'none';
   imageItems.forEach(item => {
