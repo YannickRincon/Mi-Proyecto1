@@ -81,7 +81,8 @@ body {
   #clearFilterButton:hover {
     background-color: #f44336;
   }
-
+/*-------------------------------------------------------------*/
+/*Cuarta parte. Estilos para elementos generales*/
 .content {
     display: flex;
     flex-direction: column;
@@ -100,7 +101,8 @@ body {
     text-align: center;
     padding: 10px;
   }
-
+/*-----------------------------------------------------------*/
+/*Parte cinco. Estilos para la lista de productos en vision de Admin*/
   #lista-productos {
     list-style: none;
     padding: 0;
@@ -125,7 +127,8 @@ body {
     object-fit: cover;
     margin-right: 10px;
   }
-
+/*----------------------------------------------------------*/
+/*Parte seis. Estilos de botones de eleccion en pantalla de inicio*/
   #userButtons{
     margin: 10vh;
   }
@@ -144,3 +147,4 @@ body {
   #userButton:hover, #adminButton:hover{
     background-color: #45a049;
   }
+  /*-------------------------------------------------------*/

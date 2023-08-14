@@ -1,10 +1,15 @@
+//Parte uno. Se definen variables para manipular los botones y para esconder 
+//los contenidos de usuario y Admin
 const filterButton = document.getElementById('filterButton');
 const featureElements = document.querySelectorAll('.feature');
 const imageItems = document.querySelectorAll('.image-item');
 const clearFilterButton = document.getElementById('clearFilterButton');
 const listaProd = document.getElementById('lista-productos');
 const home = document.getElementById('iniciar');
+////////////////////////////////////////////////////
 
+//Parte dos. Se esconden los contenidos de usuario y admin
+//Para solo mostrar los botones de opciones usuario y admin
 home.style.display='none';
 
 listaProd.style.display = 'none';
@@ -12,15 +17,16 @@ listaProd.style.display = 'none';
 imageItems.forEach(item => {
   item.style.display = 'none';
 });
+////////////////////////////////////////////////////////////
 
+//Parte tres. Se definen las variables para manipular los botones
+//de usuario y admin
 const userButton = document.getElementById('userButton');
 const adminButton = document.getElementById('adminButton');
 const userButtons = document.getElementById('userButtons');
+///////////////////////////////////////////////////////////////
 
-
-
-
-
+//Parte cuatro. Se muestran los elementos ocultos al elegir Usuario o admin
 userButton.addEventListener('click', () => {
   userButtons.style.display = 'none';
   imageItems.forEach(item => {
@@ -34,7 +40,9 @@ adminButton.addEventListener('click', () => {
   listaProd.style.display = 'block';
   home.style.display='block';
   });
-
+///////////////////////////////////////////////////////////////////////////
+///Parte cinco. Este boton de Inicio aparece para volver al inicio 
+//Y ocultar de nuevo todos los contenidos
 home.addEventListener('click',() =>{
   userButtons.style.display = 'block';
   listaProd.style.display = 'none';
@@ -44,8 +52,11 @@ home.addEventListener('click',() =>{
   item.style.display = 'none';
 });
 });
+////////////////////////////////////////////////////
 
-
+//Parte seis. Este es el boton de filtrado en vision de usuario.
+//Lo que hace es buscar los cactus que tienen una caracteristica
+//Especifica y esconder los que no la presentan
 filterButton.addEventListener('click', () => {
   const selectedFeature = prompt('Escriba "regado semanal" o "regado mensual"');
   
@@ -58,13 +69,15 @@ filterButton.addEventListener('click', () => {
     }
   });
 });
-
+//////////////////////////////////////////////////
+////////////////////////////////////////////////////
 clearFilterButton.addEventListener('click', () => {
     imageItems.forEach(item => {
       item.style.display = 'block';
     });
   });
 ///////////////////////////////////////
+//Parte 7. Esta matriz guarda la informacion de cada elemento
 const cactus = [
     {
       imagen: 'images/1.jpg',
@@ -109,7 +122,8 @@ const cactus = [
         stock: 70
       },
   ];
-  
+  /////////////////////////////////////////////////////
+  //Parte nueve. Se llena la lista creada en el HTML con la informacion de la matriz anterior
   const listaProductos = document.getElementById("lista-productos");
 
 
@@ -119,4 +133,4 @@ const cactus = [
     listaProductos.appendChild(li);
   });
   
-///////////////////////
+////////////////////////
