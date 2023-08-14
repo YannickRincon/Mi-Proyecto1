@@ -1,0 +1,145 @@
+
+/*Primera seccion. Se dan los estilos al Header*/
+
+.head {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+h1 {
+    margin-left: 38%;
+  }
+#cart img {
+    width: 44px;
+    height: 44px;
+  }
+/*----------------------------------------------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+/*Segunda seccion. Se dan los estilos a los elementos de imagenes*/
+.image-item {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+/*----------------------------------------------------------*/
+#filterButton, #iniciar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 15%;
+  }
+  #filterButton:hover, #iniciar:hover {
+    background-color: #45a049;
+  }
+#clearFilterButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 15%;
+  }
+  
+  #clearFilterButton:hover {
+    background-color: #f44336;
+  }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.product {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #lista-productos {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  #lista-productos li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #lista-productos li img {
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  #userButtons{
+    margin: 10vh;
+  }
+  #userButton, #adminButton {
+    display: block;
+    margin: 50px auto;
+    padding: 10px 20px;
+    font-size: 36px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  #userButton:hover, #adminButton:hover{
+    background-color: #45a049;
+  }

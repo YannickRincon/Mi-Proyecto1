@@ -1,0 +1,73 @@
+<!--Yannick Stven Rincon Perez - CC1036959985-->
+<!--Desarrollo de Software 2 - Uniremington-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Vivero YanCactus</title>
+</head>
+<body>
+    <header class="head"">
+        <h1>Vivero YanCactus</h1>
+        <div id="cart">
+            <img src="images/cart.png" alt="Carrito">
+        </div>
+    </header>
+    <main class="content">
+      <div id="userButtons">
+        <button id="userButton">Usuario</button>
+        <button id="adminButton">Administrador</button>
+      </div>
+        <div class="image-grid">
+            <div class="image-item">
+              <img src="images/1.jpg" alt="Imagen 1">
+              <h3>Tubulus</h3>
+              <p class="feature">regado mensual</p>
+              <p>$80</p>
+            </div>
+            <div class="image-item">
+                <img src="images/2.jpg" alt="Imagen 2">
+                <h3>Niorum</h3>
+                <p class="feature">regado semanal</p>
+                <p>$10</p>
+              </div>
+              <div class="image-item">
+                <img src="images/3.jpg" alt="Imagen 3">
+                <h3>Florus</h3>
+                <p class="feature">regado semanal</p>
+                <p>$35</p>
+              </div>
+              <div class="image-item">
+                <img src="images/4.jpg" alt="Imagen 4">
+                <h3>Blancus</h3>
+                <p class="feature">regado semanal</p>
+                <p>$25</p>
+              </div>
+              <div class="image-item">
+                <img src="images/5.jpg" alt="Imagen 5">
+                <h3>Puntus</h3>
+                <p class="feature">regado semanal</p>
+                <p>$40</p>
+              </div>
+              <div class="image-item">
+                <img src="images/6.jpg" alt="Imagen 6">
+                <h3>Roundus</h3>
+                <p class="feature">regado mensual</p>
+                <p>$85</p>
+              </div>
+        </div>
+          <button class="image-item"id="filterButton">Filtrar</button>
+          <button class="image-item"id="clearFilterButton">Borrar Filtros</button>
+          
+          <ul id="lista-productos" class="hidee"></ul>
+          <button id="iniciar">Inicio</button>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2023 Vivero YanCactus</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
