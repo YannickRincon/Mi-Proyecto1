@@ -128,7 +128,7 @@ body {
     margin-right: 10px;
   }
 /*----------------------------------------------------------*/
-
+/*Parte seis. Estilos de botones de eleccion en pantalla de inicio*/
   #userButtons{
     margin: 10vh;
   }
@@ -147,3 +147,4 @@ body {
   #userButton:hover, #adminButton:hover{
     background-color: #45a049;
   }
+  
